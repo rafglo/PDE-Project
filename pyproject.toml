@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdse-pde-project"
+version = "0.1.0"
+description = "Jupyter notebook simulation of the 2D time-dependent Schrodinger equation."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "ipython>=8.0",
+    "ipykernel>=6.0",
+    "jupyterlab>=4.0",
+    "notebook>=7.0",
+]
+
+[tool.setuptools]
+py-modules = []
